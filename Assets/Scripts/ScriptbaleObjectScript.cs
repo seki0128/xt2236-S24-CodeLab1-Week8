@@ -10,7 +10,8 @@ public class ScriptbaleObjectScript : ScriptableObject
     public string ObjectContent;
     public Color textColor;
 
-    public ScriptbaleObjectScript nextText;
+    public ScriptbaleObjectScript nextText_A;
+    public ScriptbaleObjectScript nextText_B;
 
     public void ShowContent()
     {

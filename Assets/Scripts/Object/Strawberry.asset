@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjectContent: Starberry
   textColor: {r: 1, g: 0, b: 0.62136126, a: 1}
-  nextText: {fileID: 0}
+  nextText_A: {fileID: 0}
+  nextText_B: {fileID: 11400000, guid: b3e3f574eb577d04e9cdaca5ae3bf110, type: 2}

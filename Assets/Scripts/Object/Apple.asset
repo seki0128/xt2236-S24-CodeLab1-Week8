@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 380fe3a6c2a695e4ca7fa4ee84ed4450, type: 3}
-  m_Name: Banana
+  m_Name: Apple
   m_EditorClassIdentifier: 
-  ObjectContent: Banana
-  textColor: {r: 1, g: 0, b: 0, a: 1}
-  nextText_A: {fileID: 11400000, guid: 340cfee08bd2e7e4a92f07f1fdbd8e07, type: 2}
-  nextText_B: {fileID: 11400000, guid: aefac05c48b849240a1170cf6d7a40f3, type: 2}
+  ObjectContent: Apple
+  textColor: {r: 0.64705884, g: 1, b: 0.88235295, a: 1}
+  nextText_A: {fileID: 11400000, guid: b3e3f574eb577d04e9cdaca5ae3bf110, type: 2}
+  nextText_B: {fileID: 0}

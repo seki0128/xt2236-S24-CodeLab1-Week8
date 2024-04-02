@@ -19,15 +19,30 @@ public class TextManager : MonoBehaviour
         text.color = textContent.textColor;
     }
 
-    private void OnMouseUp()
+    private void OnMouseDown()
     {
-        if (textContent.nextText != null)
+        if (Input.GetKeyDown(KeyCode.Mouse1))
         {
-            textContent = textContent.nextText;
+            if (textContent.nextText_A != null)
+            {
+                textContent = textContent.nextText_A;
+            }
+            else
+            {
+                Destroy(this.gameObject);
+            }
         }
-        else
+        else if(Input.GetMouseButtonDown(0))
         {
-            Destroy(this.gameObject);
+            if (textContent.nextText_B != null)
+            {
+                textContent = textContent.nextText_B;
+            }
+            else
+            {
+                Destroy(this.gameObject);
+            }
         }
+
     }
 }
