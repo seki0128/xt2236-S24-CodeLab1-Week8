@@ -7,16 +7,13 @@ using UnityEngine;
 ]
 public class ScriptbaleObjectScript : ScriptableObject
 {
-    public string ObjectName;
-    public string ObjectDesc;
+    public string ObjectContent;
+    public Color textColor;
 
-    public bool isPickUp;
+    public ScriptbaleObjectScript nextText;
 
-    public void PickUpObject()
+    public void ShowContent()
     {
-        if (!isPickUp)
-        {
-            isPickUp = true;
-        }
+        
     }
 }
